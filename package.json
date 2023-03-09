@@ -1,0 +1,17 @@
+{
+  "name": "SFCC-Tools",
+  "version": "1.0.0",
+  "description": "Requires nodeJS v12+ and npm v6+. Run node -v or npm -v to check version. Type npm i and npm run find once installed",
+  "main": "findDuplicate.js",
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "find": "node findDuplicates.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
